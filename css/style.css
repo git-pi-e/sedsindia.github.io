@@ -1523,6 +1523,16 @@ h1, h2, h3, h4, h5,
     flex: 0 0 50px;
     border-radius: 50%; }
 
+.custom-card{
+  color: #d4d4d4;
+  border: 2px dashed #d4d4d4;
+  padding: 1.5rem;
+  border-radius: 25px;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, .05);
+}
+
 /* barberz */
 .section-heading {
   position: relative;
