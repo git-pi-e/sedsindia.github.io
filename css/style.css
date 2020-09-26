@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5,
     padding: 0;
     font-size: 2.7rem; }
     .site-navbar .site-logo a {
-      color: #fff; }
+      color: rgba(255, 255, 255, 1); }
     @media (max-width: 991.98px) {
       .site-navbar .site-logo {
         float: left;
@@ -1657,10 +1657,9 @@ h1, h2, h3, h4, h5,
 .top-social a {
   display: inline-block;
   padding: 20px; }
-
 .menu-wrap {
   padding: 10px 20px;
-  background: #fff; }
+  background: rgba(255, 255, 255, 0.8); }
 
 .subtitle {
   font-size: 13px;
@@ -2102,13 +2101,22 @@ h1, h2, h3, h4, h5,
     color: #424242;
   }
   .alumni-card-footer-link:hover {
-    transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
+    transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
   }
   .notable-alumni-fa-border {
     text-shadow: 0px 0px 3px white;
   }
   .color-red-spl {
     color: #dc3545;
+  }
+  .icon-top-social {
+    font-size: 1.25rem;
+    color: white;
+  }
+  .icon-top-social:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
   }
