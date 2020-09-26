@@ -1147,8 +1147,8 @@ h1, h2, h3, h4, h5,
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
 .slide {
-  height: 100vh;
-  min-height: 900px;
+  /* height: 100vh; */
+  /* min-height: 900px; */
   background-size: cover; }
 
 .border-w-2 {
@@ -2019,3 +2019,96 @@ h1, h2, h3, h4, h5,
 
 .cart-list {
   overflow-x: scroll; }
+
+  .lc-border {
+    border-left: 5px solid #364D59;
+    padding-left: 10px;
+  }
+
+  .bgc-grey {
+    background-color: rgb(230, 230, 230)
+  }
+  .bgc-lwhite-rounded-shadow {
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    box-shadow: #919191;
+  }
+  .no-padding {
+    padding: 0 !important;
+  }
+  .carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+  }
+  .alumni-dropdown {
+    cursor: pointer;
+  }
+  .alumni-card {
+    width: 14em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    border-radius: 1em;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.125);
+    overflow: hidden;
+    transition: 0.125s ease-in-out;
+    -webkit-transition: 0.125s ease-in-out;
+    -moz-transition: 0.125s ease-in-out;
+  }
+  .alumni-card:hover {
+    transform: translateY(-0.5rem);
+  }
+  .alumni-card-name {
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+    color: #dc3545;
+  }
+  .alumni-card-position {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+  }
+  .alumni-card-link {
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+  }
+  .alumni-card-link a {
+    color: #3f3f3f;
+    text-decoration: none;
+  }
+  .alumni-card-link:hover {
+    background-color: rgb(251, 251, 251);
+  }
+  .alumni-card-footer {
+    margin-top: .5rem;
+    padding: 1rem 0;
+    background-color: rgb(248, 248, 248);
+  }
+  .alumni-card-footer-link {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.125rem;
+    color: #dc3545;
+    transition: 0.125s ease-in-out;
+    -webkit-transition: 0.125s ease-in-out;
+    -moz-transition: 0.125s ease-in-out;
+  }
+  .alumni-card-footer-link a {
+    color: #424242;
+  }
+  .alumni-card-footer-link:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+  }
+  .notable-alumni-fa-border {
+    text-shadow: 0px 0px 3px white;
+  }
+  .color-red-spl {
+    color: #dc3545;
+  }
