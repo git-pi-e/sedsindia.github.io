@@ -1530,7 +1530,7 @@ h1, h2, h3, h4, h5,
   border-radius: 25px;
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
-  background-color: rgba(255, 255, 255, .05);
+  background-color: rgba(255, 255, 255, .05) ! important;
 }
 
 /* barberz */
@@ -1848,14 +1848,14 @@ h1, h2, h3, h4, h5,
     padding: 25px 20px !important;
     border-radius: 0;
     margin-bottom: 0;
-    color: #000000;
+    color: #fff;
     font-size: 22px;
     font-weight: 700;
     position: relative;
     display: inline-block;
     border: 1px solid transparent;
     background: rgba(0, 0, 0, 0.05);
-    width: 33%;
+    width: 24%;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
@@ -1909,6 +1909,15 @@ h1, h2, h3, h4, h5,
   -ms-border-radius: 0;
   border-radius: 0;
   margin-top: 15px; }
+
+.custom-tab{
+  color: #d4d4d4;
+  border: 2px dashed #d4d4d4;
+  border-radius: 25px;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, .05);
+}
 
 .review {
   width: 100%;
