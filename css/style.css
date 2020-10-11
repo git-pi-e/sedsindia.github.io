@@ -1764,7 +1764,7 @@ h1, h2, h3, h4, h5,
     width: 100%;
     height: 100%; }
 
-    
+
 .ftco-section-parallax {
   position: relative; }
   .ftco-section-parallax .parallax-img {
@@ -1774,7 +1774,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     padding: 1em 0;
     background: #fff; }
-  
+
 .ftco-section {
   padding: 3em 0;
   position: relative; }
@@ -1838,7 +1838,7 @@ h1, h2, h3, h4, h5,
 
 
 
-    
+
 .nav-pills {
   width: 100%;
   display: block; }
@@ -1879,7 +1879,7 @@ h1, h2, h3, h4, h5,
     @media (max-width: 991.98px) {
       .nav-pills .nav-link {
         width: 90%;
-        border-radius: 15px; 
+        border-radius: 15px;
         margin: 0 auto} }
     .nav-pills .nav-link:hover {
       background: #4E1E57	;
