@@ -1658,7 +1658,7 @@ h1, h2, h3, h4, h5,
   display: inline-block;
   padding: 20px; }
 .menu-wrap {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   background: rgba(255, 255, 255, 0.8); }
 
 .subtitle {
@@ -2099,7 +2099,7 @@ h1, h2, h3, h4, h5,
   }
   .alumni-card-footer-link {
     display: inline-block;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
     font-size: 1.125rem;
     color: #dc3545;
     transition: 0.125s ease-in-out;
@@ -2161,4 +2161,26 @@ h1, h2, h3, h4, h5,
     margin: auto;
     border: 3px solid #d0d0d0;
     border-radius: 5px;
+  }
+  @media (min-width: 991.98px) {
+    .nav-social-section {
+      background-color: #b3b2b2;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .nav-social-section:hover {
+      background-color: #aaa9a9;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+  .ic-top-social-1 {
+    color: #dc3545;
+    font-size: 1rem;
+  }
+  .ic-top-social-1:hover {
+    /* color: #a71d2a */
+    transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
   }
