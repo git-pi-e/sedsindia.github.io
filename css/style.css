@@ -2053,7 +2053,7 @@ h1, h2, h3, h4, h5,
     cursor: pointer;
   }
   .alumni-card {
-    width: 14em;
+    min-width: 14em;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 1.5em;
@@ -2183,4 +2183,57 @@ h1, h2, h3, h4, h5,
     transform: scale(1.25);
     -webkit-transform: scale(1.25);
     -moz-transform: scale(1.25);
+  }
+  .chapter-card {
+    min-width: 14em;
+    min-height: 20em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    border-radius: 1em;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.125);
+    overflow: hidden;
+    transition: 0.125s ease-in-out;
+    -webkit-transition: 0.125s ease-in-out;
+    -moz-transition: 0.125s ease-in-out;
+  }
+  .chapter-card:hover {
+    transform: translateY(-0.5rem);
+  }
+  .chapter-card-name {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+    color: #dc3545;
+    vertical-align: top;
+  }
+  .chapter-card-university {
+    font-size: 0.8rem;
+  }
+  .chapter-card-footer {
+    margin-top: .5rem;
+    padding: 1rem 0;
+    background-color: rgb(248, 248, 248);
+  }
+  .chapter-card-footer-link {
+    display: inline-block;
+    /* margin-right: 1rem; */
+    font-size: 1.125rem;
+    color: #dc3545;
+    transition: 0.125s ease-in-out;
+    -webkit-transition: 0.125s ease-in-out;
+    -moz-transition: 0.125s ease-in-out;
+  }
+  .chapter-card-footer-link a {
+    color: #424242;
+  }
+  .chapter-card-footer-link:hover {
+    transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+  }
+  .chapter-logo {
+    max-width: 90%;
   }
