@@ -1,9 +1,9 @@
 var $content = $('#mediumBlogs');
 var data = {
-	rss: 'https://medium.com/feed/@sedsindia'
+	rss: 'https://medium.com/feed/@seds-india'
 };
 $.get(
-	'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40sedsindia',
+	'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40seds-india',
 	data,
 	function(response) {
 		if (response.status == 'ok') {
