@@ -124,7 +124,7 @@ window.addEventListener("load", function(){
       a.setAttribute('onclick','sopDisplay(this)')
 
       a.target = "_blank"
-      var link = document.createTextNode("View SOP");
+      var link = document.createTextNode("View");
 
       a.appendChild(link);
       button.appendChild(a);
