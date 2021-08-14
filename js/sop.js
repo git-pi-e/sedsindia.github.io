@@ -108,9 +108,20 @@ window.addEventListener("load", function(){
       var button = document.createElement('button');
 
       var a = document.createElement('a');
-      a.addEventListener("click", function(){
-        sopDisplay(candidates[j].link);
-      });
+    //   a.addEventListener("click", function(){
+    //     var cand = a.getAttribute('id')
+        
+
+    //     var numb = cand.match(/\d/g);
+    //     numb = numb.join("");
+    //     console.log(numb);
+
+
+    //     localStorage.setItem('link',candidates[numb].link);
+    //     sopDisplay();
+    //   });
+      a.setAttribute('id',candidates[j].link)
+      a.setAttribute('onclick','sopDisplay(this)')
 
       a.target = "_blank"
       var link = document.createTextNode("View SOP");
@@ -132,15 +143,15 @@ window.addEventListener("load", function(){
 
   function sopDisplay(link){
     
-    localStorage.setItem('link',link);
-    console.log(window.link);
+    console.log(link.id)
     window.open("sopdisplay.html", "_blank");
+    localStorage.setItem('link',link.id)
     finalSop();
   }
 
-  function finalSop(link){
+  function finalSop(){
     var iframe = document.createElement('iframe');
-    iframe.src = link;
+    iframe.src = localStorage.getItem('link');
     iframe.width = 720;
     iframe.height = 1000;
     iframe.allow = "autoplay";
