@@ -26,7 +26,7 @@ const candidates = [
     },
     {
         name: "Samanyu Okade",
-        position: "Secretary and At Large",
+        position: "Vice Chair and At Large",
         link: "https://drive.google.com/file/d/12QLkOn7rQcV07sMNeL9SCeG5bWeNcuWi/preview",
     },
     {
