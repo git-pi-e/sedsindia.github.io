@@ -1,84 +1,79 @@
 const candidates = [
     {
-        name: "Sejal Budholiya",
-        position: "Chair and Vice Chair",
-        link: "https://drive.google.com/file/d/1ks3Gb7XQ1Gjj4kp16ZkZ7mMUcMvB-woT/preview",
-    },
-    {
-        name: "Nathan Shankar",
-        position: "Chair and Secretary",
-        link: "https://drive.google.com/file/d/106OS3BDMRyG6IomomlTnnrHRtKSWngf-/preview",
-    },
-    {
-        name: "Adithya S",
-        position: "Vice Chair",
-        link: "https://drive.google.com/file/d/1ad9rAgHo22dcAXgIUw6mYYGjJvOIjm3A/preview",
-    },
-    {
-        name: "Megha Choudhary",
-        position: "Vice Chair",
-        link: "https://drive.google.com/file/d/1bh4d8fmI4W2V8IjWSuYINIaPqmQhQl_N/preview",
-    },
-    {
-        name: "Aviral Kumar Goel",
-        position: "Vice Chair and At Large",
-        link: "https://drive.google.com/file/d/1NrO8rcP10W3eiR5u6MR2fcdsNkk4S7Wf/preview",
-    },
-    {
         name: "Samanyu Okade",
-        position: "Vice Chair and At Large",
-        link: "https://drive.google.com/file/d/12QLkOn7rQcV07sMNeL9SCeG5bWeNcuWi/preview",
+        position: "Chair and Vice Chair",
+        link: "https://drive.google.com/file/d/1p56NKeys3ee71y2R-FYrniuZ2kJclzBO/preview",
     },
     {
-        name: "Aaruni Sharma",
-        position: "Secretary",
-        link: "https://drive.google.com/file/d/1BpiAAiJyihZyo70CfQjtbxyuQUkcdGDZ/preview",
+        name: "Sarigha Sriram G",
+        position: "Chair and Secretary",
+        link: "https://drive.google.com/file/d/1svur2FWZ2LWcdOwsNIWmLdqvS96UOH8t/preview",
     },
     {
-        name: "Neil Shah",
+        name: "Yash Chauhan",
+        position: "Chair",
+        link: "https://drive.google.com/file/d/11hneEtBcsrxfmVN4xCVS8yKEafCOVGD-/preview",
+    },
+    {
+        name: "Piyush Mohite",
+        position: "Vice Chair",
+        link: "https://drive.google.com/file/d/1hdXkPbm5MB4GM0r2xQz10Upz7Qbzm1iH/preview",
+    },
+    {
+        name: "Sushant Srivastav",
+        position: "Vice Chair and Secretary",
+        link: "https://drive.google.com/file/d/1zVdEXyzPKzKe7gBdPZIOk0eA-j2Cfk30/preview",
+    },
+    {
+        name: "Anusuya V",
+        position: "Vice Chair and Executive Director",
+        link: "https://drive.google.com/file/d/1bU6pNezuesAps-bnRhyhJ5-t9UlLIFBd/preview",
+    },
+    {
+        name: "Subrahmanyam Mantha",
         position: "Secretary",
-        link: "https://drive.google.com/file/d/1-zyMq-PlZG5CZFW6SrYN6FJVTlPKYqFY/preview",
+        link: "https://drive.google.com/file/d/1X8gAJ-5MQQsVbg3FrhiesH1XT9n0fA8B/preview",
+    },
+    {
+        name: "Prakhar Agrawal",
+        position: "Treasurer",
+        link: "https://drive.google.com/file/d/1N7-OEIQizTbLNY9ZeOZVLSC7FHXXWmWX/preview",
+    },
+    {
+        name: "Om Diwan",
+        position: "Corporate Affairs & Funding Director",
+        link: "https://drive.google.com/file/d/10lcg779g_5pAPFoqmzpSNoKnLmVVNjUe/preview",
+    },
+    {
+        name: "Anusha R",
+        position: "Corporate Affairs & Funding Director",
+        link: "https://drive.google.com/file/d/1ebD_gK_7a_CphjP3a30JOQ4YmhvGBMFF/preview",
+    },
+    {
+        name: "Tanmayee Srinivas",
+        position: "At Large",
+        link: "https://drive.google.com/file/d/1vB9Ab2cDRj3kWqaiisWE0rhcKGA2UTeZ/preview",
+    },
+    {
+        name: "Mahima Swetha M",
+        position: "At Large",
+        link: "https://drive.google.com/file/d/1FlJYG8lYFa5d6sLFfK4Hlk5HSTv56z1w/preview",
+    },
+    {
+        name: "K Sai Akshit",
+        position: "Executive Director",
+        link: "https://drive.google.com/file/d/1LMx616iTjh2a0ZD5eSTETunEYZOlG2Ii/preview",
     },
     {
         name: "Priyanka V",
-        position: "Secretary",
-        link: "https://drive.google.com/file/d/1EIIn_5ckBkOILYQ_cVUWbTb3WB1S-WQD/preview",
-    },
-    {
-        name: "Abhilash Nataraj S",
-        position: "Secretary",
-        link: "https://drive.google.com/file/d/1yagwjtO8jjGX3xJPek5aoxXT4-Eq632T/preview",
-    },
-    {
-        name: "S Kirthika",
-        position: "Secretary",
-        link: "https://drive.google.com/file/d/1uwFNJDxaQfjvcpg_n8ZILANqhtLs-1Fk/preview",
-    },
-    {
-        name: "Shriram Joshi",
-        position: "Treasurer",
-        link: "https://drive.google.com/file/d/1z26HI64BzkKw_WWfydwhTQN8eSgwXp8K/preview",
-    },
-    {
-        name: "Hrutwick Sawant",
-        position: "Corporate Affairs & Funding Director",
-        link: "https://drive.google.com/file/d/12mnYyuSiPxTyn1A6qWyf8gNpByUTk8iP/preview",
-    },
-    {
-        name: "Mohammed Aslam",
-        position: "Corporate Affairs & Funding Director and At Large",
-        link: "https://drive.google.com/file/d/1bvpnVxhYzWvCjR8Lcz9bCSBjlDW-BPLP/preview",
-    },
-    {
-        name: "Ohmprakash V",
-        position: "At Large",
-        link: "https://drive.google.com/file/d/1hWP0LGLbnDqVoQDOjqxHRax97en-FK8i/preview",
+        position: "Executive Director",
+        link: "https://drive.google.com/file/d/1_cF2aCXXx62bJGzwnVnMj6uiXeBcTutJ/preview",
     },
 ]
 
 
 window.addEventListener("load", function(){
-  
+
     var table = document.createElement('table');
 
     var tableHead = document.createElement('thead');
@@ -95,12 +90,12 @@ window.addEventListener("load", function(){
     var tableBody = document.createElement('tbody');
     var row = tableBody.insertRow();
 
-  
+
     for (var i = 0; i < candidates.length; i++) {
       var j=i;
       var cell1 = row.insertCell();
       cell1.innerHTML = candidates[i].name;
-    
+
       var cell2 = row.insertCell();
       cell2.innerHTML = candidates[i].position;
 
@@ -110,7 +105,7 @@ window.addEventListener("load", function(){
       var a = document.createElement('a');
     //   a.addEventListener("click", function(){
     //     var cand = a.getAttribute('id')
-        
+
 
     //     var numb = cand.match(/\d/g);
     //     numb = numb.join("");
@@ -133,16 +128,16 @@ window.addEventListener("load", function(){
 
       row = tableBody.insertRow();
     }
-    
+
     table.appendChild(tableHead);
     table.appendChild(tableBody);
-  
+
     document.getElementById("soptable")?.appendChild(table);
   });
 
 
   function sopDisplay(link){
-    
+
     console.log(link.id)
     window.open("sopdisplay.html", "_blank");
     localStorage.setItem('link',link.id)
