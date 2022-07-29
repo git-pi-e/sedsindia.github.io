@@ -3,14 +3,14 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sedsindi/public_html/
-    - /bin/cp -R SEDS-Projects $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R scss $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R favicon_io $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp *.html $DEPLOYPATH
-    - /bin/cp * $DEPLOYPATH
+    # - /bin/cp -R SEDS-Projects $DEPLOYPATH
+    # - /bin/cp -R css $DEPLOYPATH
+    # - /bin/cp -R scss $DEPLOYPATH
+    # - /bin/cp -R fonts $DEPLOYPATH
+    # - /bin/cp -R fonts $DEPLOYPATH
+    # - /bin/cp -R images $DEPLOYPATH
+    # - /bin/cp -R favicon_io $DEPLOYPATH
+    # - /bin/cp -R js $DEPLOYPATH
+    # - /bin/cp index.html $DEPLOYPATH
+    # - /bin/cp *.html $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH # Copy everything to the deploy path
