@@ -55,11 +55,6 @@ const candidates = [
         link: "https://drive.google.com/file/d/1vB9Ab2cDRj3kWqaiisWE0rhcKGA2UTeZ/preview",
     },
     {
-        name: "Mahima Swetha M",
-        position: "At Large",
-        link: "https://drive.google.com/file/d/1FlJYG8lYFa5d6sLFfK4Hlk5HSTv56z1w/preview",
-    },
-    {
         name: "K Sai Akshit",
         position: "Executive Director",
         link: "https://drive.google.com/file/d/1LMx616iTjh2a0ZD5eSTETunEYZOlG2Ii/preview",
